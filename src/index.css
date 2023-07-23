@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.font-title{
+  font-family: 'Kaushan Script', cursive;
+}
+.font-text{
+  font-family: 'Poppins', sans-serif;;
+}
+.pink-gradient {
+  background: radial-gradient(circle, #f4c4f3 50%, #fc67fa 100%);
+  filter: blur(1000px);
+}
+.white-gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(1000px);
+}
+.blue-gradient {
+  background: radial-gradient(circle, rgba(188, 165, 255, 0) 0%, #7784FB 100%);
+  filter: blur(1000px);
+}
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
