@@ -10,7 +10,7 @@ const ProjectCard = () => {
           <div key={card.id} className="flex flex-col mt-[8%]">
             <img
               src={card.imagen}
-              className="w-[600px] h-[300px] rounded-xl shadow-xl"
+              className="sm:w-[600px] sm:h-[300px] w-[400px] h-[200px] rounded-xl shadow-xl"
             />
             <h2 className="text-gray-400 border-b-[1px] text-center mt-5 text-[25px] uppercase font-bold">
               {card.title}

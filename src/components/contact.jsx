@@ -7,7 +7,7 @@ const Contact = () => {
     <div data-aos="fade-left" className="overflow-x-hidden mb-[3%]">
       <div className="absolute z-[3] left-[-20%] top-[30vh] w-[25%] h-[20%] rounded-full blue-gradient" />
       <div className="flex flex-col p-5 mt-[5%]">
-        <h2 className="uppercase text-gray-300 text-[105px] font-extrabold font-text text-end">
+        <h2 className="uppercase text-gray-300 text-[50px] sm:text-[105px] font-extrabold font-text text-center sm:text-end">
           Contacto
         </h2>
         <div className="flex flex-col justify-center items-center gap-10 mt-[5%]">

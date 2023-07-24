@@ -5,7 +5,7 @@ const Projects = () => {
     <div className=" mt-[5%] overflow-x-hidden" data-aos="fade-left">
       <div className="absolute z-[3] left-[-20%] top-[30vh] w-[20%] h-[20%] rounded-full blue-gradient" />
       <div className="flex flex-col p-5 ">
-        <h2 className="uppercase text-gray-300 text-[105px] font-extrabold font-text text-end">
+        <h2 className="uppercase text-gray-300 text-[50px] sm:text-[105px] font-extrabold font-text text-center sm:text-end">
           Proyectos
         </h2>
         <div>

@@ -4,23 +4,23 @@ const Studies = () => {
   return (
     <div data-aos="fade-right" className="mt-[5%]">
       <div className="flex flex-col p-5">
-        <h2 className="uppercase text-gray-300 text-[105px] font-extrabold font-text">
+        <h2 className="uppercase text-gray-300  text-[50px] sm:text-[105px] font-extrabold font-text text-center sm:text-start">
           Estudios
         </h2>
-        <div className=" grid-cols-3  flex justify-center gap-[5%] mt-[5%]">
-          <div className="flex flex-col justify-center items-center">
+        <div className="sm:grid sm:grid-cols-3 flex flex-col justify-center gap-[5%] mt-[5%]">
+          <div className="flex flex-col justify-center items-center sm:mb-0 mb-5">
             <img src="/backend.png" className="w-[400px] h-[270px] shadow-xl" />
             <h2 className="text-gray-400 text-[20px] font-bold mt-5 uppercase">
               Certificado backend
             </h2>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center sm:mb-0 mb-5">
             <img src="/react.png" className="w-[400px] h-[270px] shadow-xl" />
             <h2 className="text-gray-400 text-[20px] font-bold mt-5 uppercase">
               Certificado react js
             </h2>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center sm:mb-0 mb-5">
             <img
               src="/javascript.png"
               className="w-[400px] h-[270px] shadow-xl"
@@ -30,8 +30,8 @@ const Studies = () => {
             </h2>
           </div>
         </div>
-        <div className="grid-cols-2 flex justify-center gap-[5%] mt-[5%]">
-          <div className="flex flex-col justify-center items-center">
+        <div className="sm:grid sm:grid-cols-2 flex flex-col justify-center gap-[5%] mt-[5%]">
+          <div className="flex flex-col justify-center items-center sm:mb-0 mb-5">
             <img
               src="/desarrollo.png"
               className="w-[400px] h-[270px] shadow-xl"
@@ -40,7 +40,7 @@ const Studies = () => {
               Certificado desarrollo web
             </h2>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center sm:mb-0 mb-5">
             <img
               src="/bussines.png"
               className="w-[400px] h-[270px] shadow-xl"

@@ -6,15 +6,15 @@ const AboutMe = () => {
   return (
     <div data-aos="fade-right">
       <div className="flex flex-col p-5 ">
-        <h2 className="uppercase text-gray-300 text-[105px] font-extrabold font-text">
+        <h2 className="text-center sm:text-start uppercase text-gray-300 text-[50px] sm:text-[105px] font-extrabold font-text">
           Sobre mí
         </h2>
-        <div className="flex flex-row mt-10 gap-10 justify-center items-center">
+        <div className="flex flex-col  sm:flex-row mt-10 gap-10 justify-center items-center">
           <img
             src="/bachi.png"
             className="w-[320px] h-[300px] rounded-full shadow-xl"
           />
-          <p className="text-justify w-[50%] font-text tracking-wider text-[18px]">
+          <p className="text-justify w-[100%] sm:w-[50%] font-text tracking-wider text-[18px]">
             Desarrollador Full Stack certificado con conocimientos básicos en
             diseño ux/ui. Poseo una base técnica y habilidades para abordar
             proyectos desde la planificación hasta la implementación. Soy un
@@ -26,8 +26,8 @@ const AboutMe = () => {
             brindando experiencias excepcionales a los usuarios finales.
           </p>
         </div>
-        <div className="flex flex-row justify-between items-center px-[20%] mt-[5%]">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col sm:flex-row justify-between items-center px-[20%] mt-[5%]">
+          <div className="flex flex-col gap-5 mb-[25%] sm:mb-0">
             <div className="flex flex-col justify-center items-center gap-5">
               <h2 className="text-black text-[30px] font-bold">Frontend</h2>
               <BsCodeSlash className="text-gray-300 text-[80px]" />
