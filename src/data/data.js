@@ -22,10 +22,10 @@ export const cards = [
   },
   {
     id: 4,
-    title: "3D shirt customization page",
-    imagen: "/shirt.png",
-    repositorio: "https://github.com/LorenzoNog/3dshirt.git",
-    demo: "https://3dshirt-sage.vercel.app/",
+    title: "Tesla landing page",
+    imagen: "/tesla.png",
+    repositorio: "https://github.com/LorenzoNog/tesla-landing.git",
+    demo: "https://tesla-landing-beta.vercel.app/",
   },
   {
     id: 5,
@@ -69,32 +69,39 @@ export const cards = [
     repositorio: "https://github.com/LorenzoNog/bankpage.git",
     demo: "https://bankpage-pi.vercel.app/",
   },
+  {
+    id: 11,
+    title: "3D shirt customization page",
+    imagen: "/shirt.png",
+    repositorio: "https://github.com/LorenzoNog/3dshirt.git",
+    demo: "https://3dshirt-sage.vercel.app/",
+  },
 ];
 
 export const studies = [
   {
     id: 1,
     title: "Certificado backend",
-    imagen: "/backend.png"
+    imagen: "/backend.png",
   },
   {
     id: 2,
     title: "Certificado React JS",
-    imagen: "/react.png"
+    imagen: "/react.png",
   },
   {
     id: 3,
     title: "Certificado JavaScript",
-    imagen: "/javascript.png"
+    imagen: "/javascript.png",
   },
   {
     id: 4,
     title: "Certificado desarrollo web ",
-    imagen: "/desarrollo.png"
+    imagen: "/desarrollo.png",
   },
   {
     id: 5,
     title: "Certificado bussines analytics",
-    imagen: "/restapi.png"
+    imagen: "/restapi.png",
   },
 ];

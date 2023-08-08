@@ -4,13 +4,13 @@ import CustomButton from "../customButton";
 
 const ProjectCard = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col sm:grid sm:grid-cols-2 justify-center items-center">
       {cards.map((card) => {
         return (
-          <div key={card.id} className="flex flex-col mt-[8%]">
+          <div key={card.id} className="flex flex-col justify-center items-center mt-[8%]">
             <img
               src={card.imagen}
-              className="sm:w-[600px] sm:h-[300px] w-[400px] h-[200px] rounded-xl shadow-xl"
+              className="sm:w-[500px] sm:h-[250px] w-[400px] h-[200px] rounded-xl shadow-xl"
             />
             <h2 className="text-gray-400 border-b-[1px] text-center mt-5 text-[25px] uppercase font-bold">
               {card.title}

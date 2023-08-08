@@ -8,7 +8,7 @@ const Projects = () => {
         <h2 className="uppercase text-gray-300 text-[50px] sm:text-[105px] font-extrabold font-text text-center sm:text-end">
           Proyectos
         </h2>
-        <div>
+        <div className="">
           <ProjectCard/>
         </div>
       </div>
