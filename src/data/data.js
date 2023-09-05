@@ -57,25 +57,32 @@ export const cards = [
   },
   {
     id: 9,
-    title: "Calendario app",
+    title: "Calendar app",
     imagen: "/calendar.png",
     repositorio: "https://github.com/LorenzoNog/Calendar-app.git",
     demo: "https://calendar-app-jade.vercel.app/",
   },
   {
     id: 10,
-    title: "Página banco",
+    title: "Bank Landing Page",
     imagen: "/bank.png",
     repositorio: "https://github.com/LorenzoNog/bankpage.git",
     demo: "https://bankpage-pi.vercel.app/",
   },
   {
     id: 11,
-    title: "3D shirt customization page",
-    imagen: "/shirt.png",
-    repositorio: "https://github.com/LorenzoNog/3dshirt.git",
-    demo: "https://3dshirt-sage.vercel.app/",
+    title: "Nike Landing Page",
+    imagen: "/nike.png",
+    repositorio:'https://github.com/LorenzoNog/nike-landing.git',
+    demo:'https://nike-landing-seven.vercel.app/'
   },
+  {
+    id: 12,
+    title: "Pinterest Clone",
+    imagen: "/pinterest.png",
+    repositorio:'https://github.com/LorenzoNog/pinterest-clone.git',
+    demo:'https://pinterest-clone-peach.vercel.app/'
+  }
 ];
 
 export const studies = [
